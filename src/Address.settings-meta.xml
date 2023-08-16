@@ -341,6 +341,15 @@
         </countries>
         <countries>
             <active>false</active>
+            <integrationValue>Samoa Americana</integrationValue>
+            <isoCode>AS</isoCode>
+            <label>Samoa Americana</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
             <integrationValue>Austria</integrationValue>
             <isoCode>AT</isoCode>
             <label>Austria</label>
@@ -1617,80 +1626,272 @@
             <states>
                 <active>false</active>
                 <integrationValue>Beijing</integrationValue>
-                <isoCode>11</isoCode>
+                <isoCode>10</isoCode>
                 <label>Beijing</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Tianjin</integrationValue>
-                <isoCode>12</isoCode>
-                <label>Tianjin</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Hebei</integrationValue>
-                <isoCode>13</isoCode>
-                <label>Hebei</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Shanxi</integrationValue>
-                <isoCode>14</isoCode>
-                <label>Shanxi</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Nei Mongol</integrationValue>
-                <isoCode>15</isoCode>
-                <label>Nei Mongol</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Liaoning</integrationValue>
-                <isoCode>21</isoCode>
-                <label>Liaoning</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Jilin</integrationValue>
-                <isoCode>22</isoCode>
-                <label>Jilin</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Heilongjiang</integrationValue>
-                <isoCode>23</isoCode>
-                <label>Heilongjiang</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Shanghai</integrationValue>
-                <isoCode>31</isoCode>
-                <label>Shanghai</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Jiangsu</integrationValue>
-                <isoCode>32</isoCode>
+                <isoCode>100</isoCode>
                 <label>Jiangsu</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Beijing (std)</integrationValue>
+                <isoCode>11</isoCode>
+                <label>Beijing (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Anhui</integrationValue>
+                <isoCode>110</isoCode>
+                <label>Anhui</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Tianjin (std)</integrationValue>
+                <isoCode>12</isoCode>
+                <label>Tianjin (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Shandong</integrationValue>
+                <isoCode>120</isoCode>
+                <label>Shandong</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Hebei (std)</integrationValue>
+                <isoCode>13</isoCode>
+                <label>Hebei (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Zhejiang</integrationValue>
+                <isoCode>130</isoCode>
+                <label>Zhejiang</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Shanxi (std)</integrationValue>
+                <isoCode>14</isoCode>
+                <label>Shanxi (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Jiangxi</integrationValue>
+                <isoCode>140</isoCode>
+                <label>Jiangxi</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Nei Mongol (std)</integrationValue>
+                <isoCode>15</isoCode>
+                <label>Nei Mongol (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Fujian</integrationValue>
+                <isoCode>150</isoCode>
+                <label>Fujian</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Hunan</integrationValue>
+                <isoCode>160</isoCode>
+                <label>Hunan</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Hubei</integrationValue>
+                <isoCode>170</isoCode>
+                <label>Hubei</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Henan</integrationValue>
+                <isoCode>180</isoCode>
+                <label>Henan</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Guangdong</integrationValue>
+                <isoCode>190</isoCode>
+                <label>Guangdong</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Shanghai</integrationValue>
+                <isoCode>20</isoCode>
+                <label>Shanghai</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Hainan</integrationValue>
+                <isoCode>200</isoCode>
+                <label>Hainan</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Liaoning (std)</integrationValue>
+                <isoCode>21</isoCode>
+                <label>Liaoning (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Guangxi</integrationValue>
+                <isoCode>210</isoCode>
+                <label>Guangxi</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Jilin (std)</integrationValue>
+                <isoCode>22</isoCode>
+                <label>Jilin (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Guizhou</integrationValue>
+                <isoCode>220</isoCode>
+                <label>Guizhou</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Heilongjiang (std)</integrationValue>
+                <isoCode>23</isoCode>
+                <label>Heilongjiang (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Sichuan</integrationValue>
+                <isoCode>230</isoCode>
+                <label>Sichuan</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Yunnan</integrationValue>
+                <isoCode>240</isoCode>
+                <label>Yunnan</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Shaanxi</integrationValue>
+                <isoCode>250</isoCode>
+                <label>Shaanxi</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Gansu</integrationValue>
+                <isoCode>260</isoCode>
+                <label>Gansu</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Ningxia</integrationValue>
+                <isoCode>270</isoCode>
+                <label>Ningxia</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Quinghai</integrationValue>
+                <isoCode>280</isoCode>
+                <label>Quinghai</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Xinjiang</integrationValue>
+                <isoCode>290</isoCode>
+                <label>Xinjiang</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Tianjin</integrationValue>
+                <isoCode>30</isoCode>
+                <label>Tianjin</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Xizang</integrationValue>
+                <isoCode>300</isoCode>
+                <label>Xizang</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Shanghai (std)</integrationValue>
+                <isoCode>31</isoCode>
+                <label>Shanghai (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Jiangsu (std)</integrationValue>
+                <isoCode>32</isoCode>
+                <label>Jiangsu (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -1704,89 +1905,97 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Zhejiang</integrationValue>
+                <integrationValue>Zhejiang (std)</integrationValue>
                 <isoCode>33</isoCode>
-                <label>Zhejiang</label>
+                <label>Zhejiang (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Anhui</integrationValue>
+                <integrationValue>Anhui (std)</integrationValue>
                 <isoCode>34</isoCode>
-                <label>Anhui</label>
+                <label>Anhui (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Fujian</integrationValue>
+                <integrationValue>Fujian (std)</integrationValue>
                 <isoCode>35</isoCode>
-                <label>Fujian</label>
+                <label>Fujian (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Jiangxi</integrationValue>
+                <integrationValue>Jiangxi (std)</integrationValue>
                 <isoCode>36</isoCode>
-                <label>Jiangxi</label>
+                <label>Jiangxi (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Shandong</integrationValue>
+                <integrationValue>Shandong (std)</integrationValue>
                 <isoCode>37</isoCode>
-                <label>Shandong</label>
+                <label>Shandong (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Henan</integrationValue>
+                <integrationValue>Nei Mongol</integrationValue>
+                <isoCode>40</isoCode>
+                <label>Nei Mongol</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Henan (std)</integrationValue>
                 <isoCode>41</isoCode>
-                <label>Henan</label>
+                <label>Henan (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Hubei</integrationValue>
+                <integrationValue>Hubei (std)</integrationValue>
                 <isoCode>42</isoCode>
-                <label>Hubei</label>
+                <label>Hubei (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Hunan</integrationValue>
+                <integrationValue>Hunan (std)</integrationValue>
                 <isoCode>43</isoCode>
-                <label>Hunan</label>
+                <label>Hunan (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Guangdong</integrationValue>
+                <integrationValue>Guangdong (std)</integrationValue>
                 <isoCode>44</isoCode>
-                <label>Guangdong</label>
+                <label>Guangdong (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Guangxi</integrationValue>
+                <integrationValue>Guangxi (std)</integrationValue>
                 <isoCode>45</isoCode>
-                <label>Guangxi</label>
+                <label>Guangxi (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Hainan</integrationValue>
+                <integrationValue>Hainan (std)</integrationValue>
                 <isoCode>46</isoCode>
-                <label>Hainan</label>
+                <label>Hainan (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -1800,97 +2009,129 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Sichuan</integrationValue>
+                <integrationValue>Sichuan (std)</integrationValue>
                 <isoCode>51</isoCode>
-                <label>Sichuan</label>
+                <label>Sichuan (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Guizhou</integrationValue>
+                <integrationValue>Guizhou (std)</integrationValue>
                 <isoCode>52</isoCode>
-                <label>Guizhou</label>
+                <label>Guizhou (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Yunnan</integrationValue>
+                <integrationValue>Yunnan (std)</integrationValue>
                 <isoCode>53</isoCode>
-                <label>Yunnan</label>
+                <label>Yunnan (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Xizang</integrationValue>
+                <integrationValue>Xizang (std)</integrationValue>
                 <isoCode>54</isoCode>
-                <label>Xizang</label>
+                <label>Xizang (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Shaanxi</integrationValue>
+                <integrationValue>Hebei</integrationValue>
+                <isoCode>60</isoCode>
+                <label>Hebei</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Shaanxi (std)</integrationValue>
                 <isoCode>61</isoCode>
-                <label>Shaanxi</label>
+                <label>Shaanxi (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Gansu</integrationValue>
+                <integrationValue>Gansu (std)</integrationValue>
                 <isoCode>62</isoCode>
-                <label>Gansu</label>
+                <label>Gansu (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Qinghai</integrationValue>
+                <integrationValue>Qinghai (std)</integrationValue>
                 <isoCode>63</isoCode>
-                <label>Qinghai</label>
+                <label>Qinghai (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Ningxia</integrationValue>
+                <integrationValue>Ningxia (std)</integrationValue>
                 <isoCode>64</isoCode>
-                <label>Ningxia</label>
+                <label>Ningxia (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Xinjiang</integrationValue>
+                <integrationValue>Xinjiang (std)</integrationValue>
                 <isoCode>65</isoCode>
-                <label>Xinjiang</label>
+                <label>Xinjiang (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Chinese Taipei</integrationValue>
+                <integrationValue>Liaoning</integrationValue>
+                <isoCode>70</isoCode>
+                <label>Liaoning</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Chinese Taipei (std)</integrationValue>
                 <isoCode>71</isoCode>
-                <label>Chinese Taipei</label>
+                <label>Chinese Taipei (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Hong Kong</integrationValue>
+                <integrationValue>Jilin</integrationValue>
+                <isoCode>80</isoCode>
+                <label>Jilin</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Heilongjiang</integrationValue>
+                <isoCode>90</isoCode>
+                <label>Heilongjiang</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Hong Kong (std)</integrationValue>
                 <isoCode>91</isoCode>
-                <label>Hong Kong</label>
+                <label>Hong Kong (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Macao</integrationValue>
+                <integrationValue>Macao (std)</integrationValue>
                 <isoCode>92</isoCode>
-                <label>Macao</label>
+                <label>Macao (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -3271,6 +3512,15 @@
         </countries>
         <countries>
             <active>false</active>
+            <integrationValue>Unión Europea</integrationValue>
+            <isoCode>EU</isoCode>
+            <label>Unión Europea</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
             <integrationValue>Finland</integrationValue>
             <isoCode>FI</isoCode>
             <label>Finland</label>
@@ -3342,6 +3592,15 @@
             <label>Falkland Islands (Malvinas)</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
+            <integrationValue>Micronesia</integrationValue>
+            <isoCode>FM</isoCode>
+            <label>Micronesia</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
             <visible>false</visible>
         </countries>
         <countries>
@@ -5548,6 +5807,15 @@
         </countries>
         <countries>
             <active>false</active>
+            <integrationValue>Guam</integrationValue>
+            <isoCode>GU</isoCode>
+            <label>Guam</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
             <integrationValue>Guinea-Bissau</integrationValue>
             <isoCode>GW</isoCode>
             <label>Guinea-Bissau</label>
@@ -5562,6 +5830,39 @@
             <label>Guyana</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
+            <integrationValue>Hong Kong</integrationValue>
+            <isoCode>HK</isoCode>
+            <label>Hong Kong</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <states>
+                <active>false</active>
+                <integrationValue>HK</integrationValue>
+                <isoCode>HK</isoCode>
+                <label>Hong Kong Island</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>KLN</integrationValue>
+                <isoCode>KLN</isoCode>
+                <label>Kowloon</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>NT</integrationValue>
+                <isoCode>NT</isoCode>
+                <label>New Territories</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
             <visible>false</visible>
         </countries>
         <countries>
@@ -6323,6 +6624,14 @@
             <standard>true</standard>
             <states>
                 <active>false</active>
+                <integrationValue>Cork</integrationValue>
+                <isoCode>C</isoCode>
+                <label>Cork</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
                 <integrationValue>Clare</integrationValue>
                 <isoCode>CE</isoCode>
                 <label>Clare</label>
@@ -6339,9 +6648,9 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Cork</integrationValue>
+                <integrationValue>Cork (std)</integrationValue>
                 <isoCode>CO</isoCode>
-                <label>Cork</label>
+                <label>Cork (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -6606,9 +6915,201 @@
             <standard>true</standard>
             <states>
                 <active>false</active>
+                <integrationValue>Andhra Pradesh</integrationValue>
+                <isoCode>01</isoCode>
+                <label>Andhra Pradesh</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Arunachal Pradesh</integrationValue>
+                <isoCode>02</isoCode>
+                <label>Arunachal Pradesh</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Assam</integrationValue>
+                <isoCode>03</isoCode>
+                <label>Assam</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Bihar</integrationValue>
+                <isoCode>04</isoCode>
+                <label>Bihar</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Goa</integrationValue>
+                <isoCode>05</isoCode>
+                <label>Goa</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Gujarat</integrationValue>
+                <isoCode>06</isoCode>
+                <label>Gujarat</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Haryana</integrationValue>
+                <isoCode>07</isoCode>
+                <label>Haryana</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Himachal Pradesh</integrationValue>
+                <isoCode>08</isoCode>
+                <label>Himachal Pradesh</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Jammu and Kashmir</integrationValue>
+                <isoCode>09</isoCode>
+                <label>Jammu and Kashmir</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Karnataka</integrationValue>
+                <isoCode>10</isoCode>
+                <label>Karnataka</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Kerala</integrationValue>
+                <isoCode>11</isoCode>
+                <label>Kerala</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Madhya Pradesh</integrationValue>
+                <isoCode>12</isoCode>
+                <label>Madhya Pradesh</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Maharashtra</integrationValue>
+                <isoCode>13</isoCode>
+                <label>Maharashtra</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Manipur</integrationValue>
+                <isoCode>14</isoCode>
+                <label>Manipur</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Meghalaya</integrationValue>
+                <isoCode>15</isoCode>
+                <label>Meghalaya</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Mizoram</integrationValue>
+                <isoCode>16</isoCode>
+                <label>Mizoram</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Nagaland</integrationValue>
+                <isoCode>17</isoCode>
+                <label>Nagaland</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
                 <integrationValue>Orissa</integrationValue>
                 <isoCode>18</isoCode>
                 <label>Orissa</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Punjab</integrationValue>
+                <isoCode>19</isoCode>
+                <label>Punjab</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Rajasthan</integrationValue>
+                <isoCode>20</isoCode>
+                <label>Rajasthan</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Sikkim</integrationValue>
+                <isoCode>21</isoCode>
+                <label>Sikkim</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Tamil Nadu</integrationValue>
+                <isoCode>22</isoCode>
+                <label>Tamil Nadu</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Tripura</integrationValue>
+                <isoCode>23</isoCode>
+                <label>Tripura</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Uttar Pradesh</integrationValue>
+                <isoCode>24</isoCode>
+                <label>Uttar Pradesh</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>West Bengal</integrationValue>
+                <isoCode>25</isoCode>
+                <label>West Bengal</label>
                 <standard>false</standard>
                 <visible>false</visible>
             </states>
@@ -6622,6 +7123,14 @@
             </states>
             <states>
                 <active>false</active>
+                <integrationValue>Chandigarh</integrationValue>
+                <isoCode>27</isoCode>
+                <label>Chandigarh</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
                 <integrationValue>Dadra and Nagar Hav.</integrationValue>
                 <isoCode>28</isoCode>
                 <label>Dadra and Nagar Hav.</label>
@@ -6630,281 +7139,337 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Andaman and Nicobar Islands</integrationValue>
-                <isoCode>AN</isoCode>
-                <label>Andaman and Nicobar Islands</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Andhra Pradesh</integrationValue>
-                <isoCode>AP</isoCode>
-                <label>Andhra Pradesh</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Arunachal Pradesh</integrationValue>
-                <isoCode>AR</isoCode>
-                <label>Arunachal Pradesh</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Assam</integrationValue>
-                <isoCode>AS</isoCode>
-                <label>Assam</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Bihar</integrationValue>
-                <isoCode>BR</isoCode>
-                <label>Bihar</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Chandigarh</integrationValue>
-                <isoCode>CH</isoCode>
-                <label>Chandigarh</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Chhattisgarh</integrationValue>
-                <isoCode>CT</isoCode>
-                <label>Chhattisgarh</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
                 <integrationValue>Daman and Diu</integrationValue>
-                <isoCode>DD</isoCode>
+                <isoCode>29</isoCode>
                 <label>Daman and Diu</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Delhi</integrationValue>
-                <isoCode>DL</isoCode>
+                <isoCode>30</isoCode>
                 <label>Delhi</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Dadra and Nagar Haveli</integrationValue>
-                <isoCode>DN</isoCode>
-                <label>Dadra and Nagar Haveli</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Goa</integrationValue>
-                <isoCode>GA</isoCode>
-                <label>Goa</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Gujarat</integrationValue>
-                <isoCode>GJ</isoCode>
-                <label>Gujarat</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Himachal Pradesh</integrationValue>
-                <isoCode>HP</isoCode>
-                <label>Himachal Pradesh</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Haryana</integrationValue>
-                <isoCode>HR</isoCode>
-                <label>Haryana</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Jharkhand</integrationValue>
-                <isoCode>JH</isoCode>
-                <label>Jharkhand</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Jammu and Kashmir</integrationValue>
-                <isoCode>JK</isoCode>
-                <label>Jammu and Kashmir</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Karnataka</integrationValue>
-                <isoCode>KA</isoCode>
-                <label>Karnataka</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Kerala</integrationValue>
-                <isoCode>KL</isoCode>
-                <label>Kerala</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Lakshadweep</integrationValue>
-                <isoCode>LD</isoCode>
+                <isoCode>31</isoCode>
                 <label>Lakshadweep</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Maharashtra</integrationValue>
-                <isoCode>MH</isoCode>
-                <label>Maharashtra</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Meghalaya</integrationValue>
-                <isoCode>ML</isoCode>
-                <label>Meghalaya</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Manipur</integrationValue>
-                <isoCode>MN</isoCode>
-                <label>Manipur</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Madhya Pradesh</integrationValue>
-                <isoCode>MP</isoCode>
-                <label>Madhya Pradesh</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Mizoram</integrationValue>
-                <isoCode>MZ</isoCode>
-                <label>Mizoram</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Nagaland</integrationValue>
-                <isoCode>NL</isoCode>
-                <label>Nagaland</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Odisha</integrationValue>
-                <isoCode>OR</isoCode>
-                <label>Odisha</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Punjab</integrationValue>
-                <isoCode>PB</isoCode>
-                <label>Punjab</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Puducherry</integrationValue>
-                <isoCode>PY</isoCode>
+                <isoCode>32</isoCode>
                 <label>Puducherry</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Rajasthan</integrationValue>
-                <isoCode>RJ</isoCode>
-                <label>Rajasthan</label>
-                <standard>true</standard>
+                <integrationValue>Chhattisgarh</integrationValue>
+                <isoCode>33</isoCode>
+                <label>Chhattisgarh</label>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Sikkim</integrationValue>
-                <isoCode>SK</isoCode>
-                <label>Sikkim</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Tamil Nadu</integrationValue>
-                <isoCode>TN</isoCode>
-                <label>Tamil Nadu</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Tripura</integrationValue>
-                <isoCode>TR</isoCode>
-                <label>Tripura</label>
-                <standard>true</standard>
-                <visible>false</visible>
-            </states>
-            <states>
-                <active>false</active>
-                <integrationValue>Uttar Pradesh</integrationValue>
-                <isoCode>UP</isoCode>
-                <label>Uttar Pradesh</label>
-                <standard>true</standard>
+                <integrationValue>Jharkhand</integrationValue>
+                <isoCode>34</isoCode>
+                <label>Jharkhand</label>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Uttarakhand</integrationValue>
-                <isoCode>UT</isoCode>
+                <isoCode>35</isoCode>
                 <label>Uttarakhand</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Andaman and Nicobar Islands (std)</integrationValue>
+                <isoCode>AN</isoCode>
+                <label>Andaman and Nicobar Islands (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>West Bengal</integrationValue>
+                <integrationValue>Andhra Pradesh (std)</integrationValue>
+                <isoCode>AP</isoCode>
+                <label>Andhra Pradesh (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Arunachal Pradesh (std)</integrationValue>
+                <isoCode>AR</isoCode>
+                <label>Arunachal Pradesh (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Assam (std)</integrationValue>
+                <isoCode>AS</isoCode>
+                <label>Assam (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Bihar (std)</integrationValue>
+                <isoCode>BR</isoCode>
+                <label>Bihar (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Chandigarh (std)</integrationValue>
+                <isoCode>CH</isoCode>
+                <label>Chandigarh (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Chhattisgarh (std)</integrationValue>
+                <isoCode>CT</isoCode>
+                <label>Chhattisgarh (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Daman and Diu (std)</integrationValue>
+                <isoCode>DD</isoCode>
+                <label>Daman and Diu (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Delhi (std)</integrationValue>
+                <isoCode>DL</isoCode>
+                <label>Delhi (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Dadra and Nagar Haveli (std)</integrationValue>
+                <isoCode>DN</isoCode>
+                <label>Dadra and Nagar Haveli (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Goa (std)</integrationValue>
+                <isoCode>GA</isoCode>
+                <label>Goa (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Gujarat (std)</integrationValue>
+                <isoCode>GJ</isoCode>
+                <label>Gujarat (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Himachal Pradesh (std)</integrationValue>
+                <isoCode>HP</isoCode>
+                <label>Himachal Pradesh (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Haryana (std)</integrationValue>
+                <isoCode>HR</isoCode>
+                <label>Haryana (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Jharkhand (std)</integrationValue>
+                <isoCode>JH</isoCode>
+                <label>Jharkhand (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Jammu and Kashmir (std)</integrationValue>
+                <isoCode>JK</isoCode>
+                <label>Jammu and Kashmir (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Karnataka (std)</integrationValue>
+                <isoCode>KA</isoCode>
+                <label>Karnataka (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Kerala (std)</integrationValue>
+                <isoCode>KL</isoCode>
+                <label>Kerala (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Lakshadweep (std)</integrationValue>
+                <isoCode>LD</isoCode>
+                <label>Lakshadweep (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Maharashtra (std)</integrationValue>
+                <isoCode>MH</isoCode>
+                <label>Maharashtra (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Meghalaya (std)</integrationValue>
+                <isoCode>ML</isoCode>
+                <label>Meghalaya (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Manipur (std)</integrationValue>
+                <isoCode>MN</isoCode>
+                <label>Manipur (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Madhya Pradesh (std)</integrationValue>
+                <isoCode>MP</isoCode>
+                <label>Madhya Pradesh (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Mizoram (std)</integrationValue>
+                <isoCode>MZ</isoCode>
+                <label>Mizoram (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Nagaland (std)</integrationValue>
+                <isoCode>NL</isoCode>
+                <label>Nagaland (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Odisha (std)</integrationValue>
+                <isoCode>OR</isoCode>
+                <label>Odisha (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Punjab (std)</integrationValue>
+                <isoCode>PB</isoCode>
+                <label>Punjab (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Puducherry (std)</integrationValue>
+                <isoCode>PY</isoCode>
+                <label>Puducherry (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Rajasthan (std)</integrationValue>
+                <isoCode>RJ</isoCode>
+                <label>Rajasthan (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Sikkim (std)</integrationValue>
+                <isoCode>SK</isoCode>
+                <label>Sikkim (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Tamil Nadu (std)</integrationValue>
+                <isoCode>TN</isoCode>
+                <label>Tamil Nadu (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Tripura (std)</integrationValue>
+                <isoCode>TR</isoCode>
+                <label>Tripura (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Uttar Pradesh (std)</integrationValue>
+                <isoCode>UP</isoCode>
+                <label>Uttar Pradesh (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Uttarakhand (std)</integrationValue>
+                <isoCode>UT</isoCode>
+                <label>Uttarakhand (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>West Bengal (std)</integrationValue>
                 <isoCode>WB</isoCode>
-                <label>West Bengal</label>
+                <label>West Bengal (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -8781,6 +9346,15 @@
         </countries>
         <countries>
             <active>false</active>
+            <integrationValue>Isl. Marshall</integrationValue>
+            <isoCode>MH</isoCode>
+            <label>Isl. Marshall</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
             <integrationValue>Macedonia, the former Yugoslav Republic of</integrationValue>
             <isoCode>MK</isoCode>
             <label>Macedonia, the former Yugoslav Republic of</label>
@@ -8822,6 +9396,15 @@
             <label>Macao</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
+            <integrationValue>Isl. Marianas N.</integrationValue>
+            <isoCode>MP</isoCode>
+            <label>Isl. Marianas N.</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
             <visible>false</visible>
         </countries>
         <countries>
@@ -8896,10 +9479,18 @@
             <standard>true</standard>
             <states>
                 <active>false</active>
-                <integrationValue>Aguascalientes</integrationValue>
+                <integrationValue>Aguascalientes (std)</integrationValue>
                 <isoCode>AG</isoCode>
-                <label>Aguascalientes</label>
+                <label>Aguascalientes (std)</label>
                 <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>AGS</integrationValue>
+                <isoCode>AGS</isoCode>
+                <label>Aguascalientes</label>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
@@ -8920,106 +9511,186 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Baja California Sur</integrationValue>
+                <integrationValue>Baja California Sur (std)</integrationValue>
                 <isoCode>BS</isoCode>
-                <label>Baja California Sur</label>
+                <label>Baja California Sur (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Distrito Federal</integrationValue>
+                <integrationValue>CDM</integrationValue>
                 <isoCode>CDM</isoCode>
-                <label>Distrito Federal</label>
+                <label>Distrito Federal (CDM)</label>
                 <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Chihuahua</integrationValue>
+                <integrationValue>Chihuahua (std)</integrationValue>
                 <isoCode>CH</isoCode>
-                <label>Chihuahua</label>
+                <label>Chihuahua (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Colima</integrationValue>
+                <integrationValue>Chihuahua</integrationValue>
+                <isoCode>CHI</isoCode>
+                <label>Chihuahua</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Chiapas</integrationValue>
+                <isoCode>CHS</isoCode>
+                <label>Chiapas</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Colima (std)</integrationValue>
                 <isoCode>CL</isoCode>
-                <label>Colima</label>
+                <label>Colima (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Campeche (std)</integrationValue>
+                <isoCode>CM</isoCode>
+                <label>Campeche (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Campeche</integrationValue>
-                <isoCode>CM</isoCode>
+                <isoCode>CMP</isoCode>
                 <label>Campeche</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Coahuila (std)</integrationValue>
+                <isoCode>CO</isoCode>
+                <label>Coahuila (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Coahuila</integrationValue>
-                <isoCode>CO</isoCode>
+                <isoCode>COA</isoCode>
                 <label>Coahuila</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Chiapas</integrationValue>
+                <integrationValue>Colima</integrationValue>
+                <isoCode>COL</isoCode>
+                <label>Colima</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Chiapas (std)</integrationValue>
                 <isoCode>CS</isoCode>
-                <label>Chiapas</label>
+                <label>Chiapas (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Federal District</integrationValue>
+                <integrationValue>DF</integrationValue>
                 <isoCode>DF</isoCode>
-                <label>Federal District</label>
+                <label>Distrito Federal (DF)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Durango (std)</integrationValue>
+                <isoCode>DG</isoCode>
+                <label>Durango (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Durango</integrationValue>
-                <isoCode>DG</isoCode>
+                <isoCode>DGO</isoCode>
                 <label>Durango</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Guerrero (std)</integrationValue>
+                <isoCode>GR</isoCode>
+                <label>Guerrero (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Guerrero</integrationValue>
-                <isoCode>GR</isoCode>
+                <isoCode>GRO</isoCode>
                 <label>Guerrero</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Guanajuato (std)</integrationValue>
+                <isoCode>GT</isoCode>
+                <label>Guanajuato (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Guanajuato</integrationValue>
-                <isoCode>GT</isoCode>
+                <isoCode>GTO</isoCode>
                 <label>Guanajuato</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Hidalgo (std)</integrationValue>
+                <isoCode>HG</isoCode>
+                <label>Hidalgo (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Hidalgo</integrationValue>
-                <isoCode>HG</isoCode>
+                <isoCode>HGO</isoCode>
                 <label>Hidalgo</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Jalisco (std)</integrationValue>
+                <isoCode>JA</isoCode>
+                <label>Jalisco (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Jalisco</integrationValue>
-                <isoCode>JA</isoCode>
+                <isoCode>JAL</isoCode>
                 <label>Jalisco</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
@@ -9032,9 +9703,9 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Mexico State</integrationValue>
+                <integrationValue>Mexico State (std)</integrationValue>
                 <isoCode>ME</isoCode>
-                <label>Mexico State</label>
+                <label>Mexico State (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -9048,26 +9719,42 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Michoacán</integrationValue>
+                <integrationValue>Michoacán (std)</integrationValue>
                 <isoCode>MI</isoCode>
-                <label>Michoacán</label>
+                <label>Michoacán (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Morelos (std)</integrationValue>
+                <isoCode>MO</isoCode>
+                <label>Morelos (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Morelos</integrationValue>
-                <isoCode>MO</isoCode>
+                <isoCode>MOR</isoCode>
                 <label>Morelos</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Nayarit (std)</integrationValue>
+                <isoCode>NA</isoCode>
+                <label>Nayarit (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Nayarit</integrationValue>
-                <isoCode>NA</isoCode>
+                <isoCode>NAY</isoCode>
                 <label>Nayarit</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
@@ -9080,25 +9767,41 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Oaxaca</integrationValue>
+                <integrationValue>Oaxaca (std)</integrationValue>
                 <isoCode>OA</isoCode>
+                <label>Oaxaca (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Oaxaca</integrationValue>
+                <isoCode>OAX</isoCode>
                 <label>Oaxaca</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Puebla (std)</integrationValue>
+                <isoCode>PB</isoCode>
+                <label>Puebla (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Puebla</integrationValue>
-                <isoCode>PB</isoCode>
+                <isoCode>PUE</isoCode>
                 <label>Puebla</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Querétaro</integrationValue>
+                <integrationValue>Querétaro (std)</integrationValue>
                 <isoCode>QE</isoCode>
-                <label>Querétaro</label>
+                <label>Querétaro (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -9120,17 +9823,25 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Sinaloa</integrationValue>
+                <integrationValue>Sinaloa (std)</integrationValue>
                 <isoCode>SI</isoCode>
-                <label>Sinaloa</label>
+                <label>Sinaloa (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>San Luis Potosí</integrationValue>
+                <integrationValue>Sinaloa</integrationValue>
+                <isoCode>SIN</isoCode>
+                <label>Sinaloa</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>San Luis Potosí (std)</integrationValue>
                 <isoCode>SL</isoCode>
-                <label>San Luis Potosí</label>
+                <label>San Luis Potosí (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -9144,49 +9855,89 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Sonora</integrationValue>
+                <integrationValue>Sonora (std)</integrationValue>
                 <isoCode>SO</isoCode>
-                <label>Sonora</label>
+                <label>Sonora (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
+                <integrationValue>Sonora</integrationValue>
+                <isoCode>SON</isoCode>
+                <label>Sonora</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
                 <integrationValue>Tabasco</integrationValue>
-                <isoCode>TB</isoCode>
+                <isoCode>TAB</isoCode>
                 <label>Tabasco</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Tabasco (std)</integrationValue>
+                <isoCode>TB</isoCode>
+                <label>Tabasco (std)</label>
+                <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Tlaxcala (std)</integrationValue>
+                <isoCode>TL</isoCode>
+                <label>Tlaxcala (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Tlaxcala</integrationValue>
-                <isoCode>TL</isoCode>
+                <isoCode>TLX</isoCode>
                 <label>Tlaxcala</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Tamaulipas (std)</integrationValue>
+                <isoCode>TM</isoCode>
+                <label>Tamaulipas (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Tamaulipas</integrationValue>
-                <isoCode>TM</isoCode>
+                <isoCode>TMS</isoCode>
                 <label>Tamaulipas</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Veracruz (std)</integrationValue>
+                <isoCode>VE</isoCode>
+                <label>Veracruz (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
                 <integrationValue>Veracruz</integrationValue>
-                <isoCode>VE</isoCode>
+                <isoCode>VER</isoCode>
                 <label>Veracruz</label>
-                <standard>true</standard>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Yucatán</integrationValue>
+                <integrationValue>Yucatán (std)</integrationValue>
                 <isoCode>YU</isoCode>
-                <label>Yucatán</label>
+                <label>Yucatán (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -9200,10 +9951,18 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Zacatecas</integrationValue>
+                <integrationValue>Zacatecas (std)</integrationValue>
                 <isoCode>ZA</isoCode>
-                <label>Zacatecas</label>
+                <label>Zacatecas (std)</label>
                 <standard>true</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Zacatecas</integrationValue>
+                <isoCode>ZAC</isoCode>
+                <label>Zacatecas</label>
+                <standard>false</standard>
                 <visible>false</visible>
             </states>
             <visible>false</visible>
@@ -9702,6 +10461,15 @@
         </countries>
         <countries>
             <active>false</active>
+            <integrationValue>OTAN</integrationValue>
+            <isoCode>NT</isoCode>
+            <label>OTAN</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
             <integrationValue>Niue</integrationValue>
             <isoCode>NU</isoCode>
             <label>Niue</label>
@@ -9821,6 +10589,15 @@
             <label>Oman</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
+            <integrationValue>Naranja</integrationValue>
+            <isoCode>OR</isoCode>
+            <label>Naranja</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
             <visible>false</visible>
         </countries>
         <countries>
@@ -10182,6 +10959,14 @@
             </states>
             <states>
                 <active>false</active>
+                <integrationValue>K-P</integrationValue>
+                <isoCode>KP</isoCode>
+                <label>Kujawsko-Pomorskie</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
                 <integrationValue>Lubelskie</integrationValue>
                 <isoCode>LBL</isoCode>
                 <label>Lubelskie</label>
@@ -10276,6 +11061,22 @@
                 <standard>false</standard>
                 <visible>false</visible>
             </states>
+            <states>
+                <active>false</active>
+                <integrationValue>W-M</integrationValue>
+                <isoCode>WM</isoCode>
+                <label>Warminsko-mazurskie</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>Z-P</integrationValue>
+                <isoCode>ZP</isoCode>
+                <label>Zachodnio-Pomorskie</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
             <visible>false</visible>
         </countries>
         <countries>
@@ -10294,6 +11095,15 @@
             <label>Pitcairn</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
+            <integrationValue>Puerto Rico</integrationValue>
+            <isoCode>PR</isoCode>
+            <label>Puerto Rico</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
             <visible>false</visible>
         </countries>
         <countries>
@@ -10552,6 +11362,15 @@
                 <standard>false</standard>
                 <visible>false</visible>
             </states>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
+            <integrationValue>Palaos</integrationValue>
+            <isoCode>PW</isoCode>
+            <label>Palaos</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
             <visible>false</visible>
         </countries>
         <countries>
@@ -14711,9 +15530,33 @@
             </states>
             <states>
                 <active>false</active>
+                <integrationValue>L&apos;V</integrationValue>
+                <isoCode>LV</isoCode>
+                <label>L&apos;vivsbka</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
                 <integrationValue>Mikolaivs&apos;ka</integrationValue>
                 <isoCode>MIK</isoCode>
                 <label>Mikolaivs&apos;ka</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>M_K</integrationValue>
+                <isoCode>MK</isoCode>
+                <label>m.Kiev</label>
+                <standard>false</standard>
+                <visible>false</visible>
+            </states>
+            <states>
+                <active>false</active>
+                <integrationValue>M_S</integrationValue>
+                <isoCode>MS</isoCode>
+                <label>m.Sevastopil&apos;</label>
                 <standard>false</standard>
                 <visible>false</visible>
             </states>
@@ -14810,6 +15653,24 @@
         </countries>
         <countries>
             <active>false</active>
+            <integrationValue>IslMenAlejEEUU</integrationValue>
+            <isoCode>UM</isoCode>
+            <label>IslMenAlejEEUU</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
+            <integrationValue>Naciones Unidas</integrationValue>
+            <isoCode>UN</isoCode>
+            <label>Naciones Unidas</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
             <integrationValue>United States</integrationValue>
             <isoCode>US</isoCode>
             <label>United States</label>
@@ -14817,17 +15678,17 @@
             <standard>true</standard>
             <states>
                 <active>false</active>
-                <integrationValue>Armed Forces Americas</integrationValue>
+                <integrationValue>Armed Forces Americas (std)</integrationValue>
                 <isoCode>AA</isoCode>
-                <label>Standard Not Used 1</label>
+                <label>Armed Forces Americas (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Armed Forces Europe</integrationValue>
+                <integrationValue>Armed Forces Europe (std)</integrationValue>
                 <isoCode>AE</isoCode>
-                <label>Standard Not Used 2</label>
+                <label>Armed Forces Europe (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -14849,9 +15710,9 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Armed Forces Pacific</integrationValue>
+                <integrationValue>Armed Forces Pacific (std)</integrationValue>
                 <isoCode>AP</isoCode>
-                <label>Armed Forces Pacific</label>
+                <label>Armed Forces Pacific (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -14929,9 +15790,9 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Federated Micronesia</integrationValue>
+                <integrationValue>Federated Micronesia (std)</integrationValue>
                 <isoCode>FM</isoCode>
-                <label>Federated Micronesia</label>
+                <label>Federated Micronesia (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -15041,9 +15902,9 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Marshall Islands</integrationValue>
+                <integrationValue>Marshall Islands (std)</integrationValue>
                 <isoCode>MH</isoCode>
-                <label>Marshall Islands</label>
+                <label>Marshall Islands (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -15201,9 +16062,9 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>Palau</integrationValue>
+                <integrationValue>Palau (std)</integrationValue>
                 <isoCode>PW</isoCode>
-                <label>Palau</label>
+                <label>Palau (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -15249,9 +16110,9 @@
             </states>
             <states>
                 <active>false</active>
-                <integrationValue>United States Minor Outlying Islands</integrationValue>
+                <integrationValue>United States Minor Outlying Islands (std)</integrationValue>
                 <isoCode>UM</isoCode>
-                <label>United States Minor Outlying Islands</label>
+                <label>United States Minor Outlying Islands (std)</label>
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
@@ -15569,6 +16430,15 @@
         </countries>
         <countries>
             <active>false</active>
+            <integrationValue>Is.Vírgenes USA</integrationValue>
+            <isoCode>VI</isoCode>
+            <label>Is.Vírgenes USA</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
             <integrationValue>Viet Nam</integrationValue>
             <isoCode>VN</isoCode>
             <label>Viet Nam</label>
@@ -15601,6 +16471,15 @@
             <label>Samoa</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
+            <visible>false</visible>
+        </countries>
+        <countries>
+            <active>false</active>
+            <integrationValue>Kosovo</integrationValue>
+            <isoCode>XK</isoCode>
+            <label>Kosovo</label>
+            <orgDefault>false</orgDefault>
+            <standard>false</standard>
             <visible>false</visible>
         </countries>
         <countries>

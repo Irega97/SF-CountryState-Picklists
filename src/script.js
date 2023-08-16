@@ -35,16 +35,16 @@ try
         var root = result.AddressSettings.countriesAndStates[0].countries;
 
         //Add logs with numbers of countries and states in the input metadata
-        logs.push('Countries to process: '+root.length);
+        logs.push('SF Countries to process: '+root.length);
         for(var i = 0; i < root.length; i++)
         {
             if(root[i].states != null){
-                for(var j = 0; j < root[i].states.length; j++) {
-                    numStatesInp = numStatesInp + root[i].states.length;
-                }
+                numStatesInp = numStatesInp + root[i].states.length;
             }
         }
-        logs.push('States to process: '+numStatesInp);
+        logs.push('SF States to process: '+numStatesInp);
+        logs.push('Country inputs: '+mapCountry.size);
+        logs.push('State inputs: '+mapStates.size);
 
         //Iterate over the countries and states list
         for(var i = 0; i < root.length; i++)
@@ -76,9 +76,7 @@ try
                 if(mapCountry.has(countryCode)){
                     root[i].active[0] = true;
                     root[i].visible[0] = true;
-                    root[i].integrationValue[0] = mapCountry.get(countryCode);
-                    root[i].label[0] = mapCountry.get(countryCode);
-                    logs.push('Country '+countryCode+' modified -> {label: '+mapCountry.get(countryCode)+', code: '+countryCode+', intVal: '+mapCountry.get(countryCode)+', active: true, visible: true, standard: '+countryStandard+'}');
+                    logs.push('Country '+countryCode+' set to active and visible');
                     mapCountry.delete(countryCode);
                     countryCount++;
                 } else { //If it's not in the dataset, visible is set to false and IsoCode is added to the list for the log
@@ -118,32 +116,50 @@ try
 
                         //Check if the state isoCode is in the states dataset and update values
                         if(mapStates.has(stateKey)){
-                            root[i].states[j].label[0] = mapStates.get(stateKey);
-                            root[i].states[j].integrationValue[0] = mapStates.get(stateKey);
+                            root[i].states[j].integrationValue[0] = stateCode;
                             root[i].states[j].active[0] = true;
                             root[i].states[j].visible[0] = true;
-                            mapStates.delete(stateKey);
                             stateCount++;
                             
                             //Add log with state processed
                             logs.push('State  '+stateKey+' modified -> '+
-                                '{label: '+mapStates.get(stateKey)+
+                                '{label: '+stateLbl+
                                 ', code: '+stateCode+
-                                ', intVal: '+mapStates.get(stateKey)+
+                                ', intVal: '+stateCode+
                                 ', active: true'+
                                 ', visible: true'+
                                 ', standard: '+stateStandard+
                             '}');
+
+                            mapStates.delete(stateKey);
                         
+                        } else if(mapStates.has(countryCode+'-'+stateIntVal)) {
+                            root[i].states[j].active[0] = true;
+                            root[i].states[j].visible[0] = true;
+                            stateCount++;
+                            
+                            //Add log with state processed
+                            logs.push('State  '+stateKey+' modified -> '+
+                                '{label: '+stateLbl+
+                                ', code: '+stateCode+
+                                ', intVal: '+stateIntVal+
+                                ', active: true'+
+                                ', visible: true'+
+                                ', standard: '+stateStandard+
+                            '}');
+
+                            mapStates.delete(countryCode+'-'+stateIntVal);
+
                         } else { //If it's not in the dataset, visible is set to false and IsoCode is added to the list for the log
                             root[i].states[j].visible[0] = false;
-                            stateNotProcessed.push(stateKey);
+                            stateNotProcessed.push(stateKey + ' - '+root[i].states[j].label[0]);
                             logs.push('404: State '+stateLbl+'('+stateKey+') not found in the dataset. Visibility set to false. Standard = '+stateStandard);
                         }
                     }
                 }
             } else {
                 countryNotProcessed.push(countryCode);
+                mapCountry.delete(countryCode);
                 logs.push('SKIPPED COUNTRY '+countryLbl);
             }
         }
@@ -160,25 +176,47 @@ try
             // DISPLAY FINAL STATUS IN CONSOLE
             console.log("The file was generated and saved! You can use the \'"+RESULT_FILE_NAME+"\' to deploy your metadata into SF");
             console.log('************** SUMMARY ****************');
-            console.log('- Processed countries: '+countryCount);
-            console.log('- Processed states: '+stateCount);
-            console.log('- Not modified countries = '+countryNotProcessed.length);
-            console.log('- Not modified states = '+stateNotProcessed.length);
+            console.log('- # Countries set to active: '+countryCount);
+            console.log('- # States set to active: '+stateCount);
+            console.log('- Not modified countries: '+countryNotProcessed.length+' '+countryNotProcessed);
+            console.log('- Countries not found in SF: '+mapCountry.size);
+            console.log('- Not modified states: '+stateNotProcessed.length);
+            console.log('- States not found in SF: '+mapStates.size);
             console.log('***************************************');
 
             // ADD SUMMARY TO LOGS
             logs.push('\n\n************** SUMMARY ****************');
-            logs.push('- Processed countries: '+countryCount);
-            logs.push('- Processed states: '+stateCount);
-            logs.push('- Not modified countries: '+countryNotProcessed.length);
+            logs.push('- # Countries set to active: '+countryCount);
+            logs.push('- # States set to active: '+stateCount);
+            logs.push('- Not modified countries: '+countryNotProcessed.length+' '+countryNotProcessed);
+            logs.push('- Countries not found in SF: '+mapCountry.size);
+            if(mapCountry.size > 0) {
+                logs.push('{');
+                for(let [key, value] of mapCountry){
+                    logs.push(key+' : '+value);
+                    if(i+1 == mapCountry.size) {
+                        logs.push('}');
+                    }
+                }
+            }
             logs.push('- Not modified states: '+stateNotProcessed.length);
             if(stateNotProcessed.length > 0) {
                 logs.push('{');
+                for(var i = 0; i < stateNotProcessed.length; i++){
+                    logs.push(stateNotProcessed[i]);
+                    if(i+1 == stateNotProcessed.length) {
+                        logs.push('}');
+                    }
+                }
             }
-            for(var i = 0; i < stateNotProcessed.length; i++){
-                logs.push(stateNotProcessed[i]);
-                if(i+1 == stateNotProcessed.length) {
-                    logs.push('}');
+            logs.push('- States not found in SF: '+mapStates.size);
+            if(mapStates.size > 0) {
+                logs.push('{');
+                for(let [key, value] of mapStates){
+                    logs.push(key+' : '+value);
+                    if(i+1 == mapStates.size) {
+                        logs.push('}');
+                    }
                 }
             }
             logs.push('***************************************');
